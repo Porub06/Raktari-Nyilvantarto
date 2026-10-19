@@ -17,13 +17,14 @@ namespace Raktari_Nyilvantarto
 
         public override int ErtekSzamitas(int darabszam)
         {
-            return base.ErtekSzamitas(darabszam * GaranciaEvek * 500 * darabszam);
+            return base.ErtekSzamitas(darabszam) + (GaranciaEvek * 500 * darabszam);
         }
 
         public override string ToString()
         {
-            return base.ToString();
+            return base.ToString() + $"| Garancia: {GaranciaEvek} év";
         }
+
 
     }
 }

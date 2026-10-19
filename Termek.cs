@@ -46,7 +46,7 @@ namespace Raktari_Nyilvantarto
 
         public override string ToString()
         {
-            return $"Termék{Cikkszam} | Egységár: {Alapar} Ft ";
+            return $"Termék: {Cikkszam} | Egységár: {Alapar} Ft ";
         }
 
 
