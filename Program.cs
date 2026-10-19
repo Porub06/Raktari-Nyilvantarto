@@ -42,6 +42,7 @@ foreach (string sor in File.ReadAllLines("termekek.txt").Skip(1))
     if (adatok[0] == "G")
     {
         Termek tartosTermek = new TartosTermek(adatok[1], Alapar, GaranciaEvek);
+        termekek.Add(tartosTermek);
     }
 
 

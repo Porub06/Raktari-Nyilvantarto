@@ -19,7 +19,7 @@ namespace Raktari_Nyilvantarto
                 }
                 else
                 {
-                    value = alapar;
+                    alapar = value;
                 }
             }
 
